@@ -101,10 +101,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-
+ <br/><br/>
   ![Shop-Shop-Redux Screenshots](assets/images/Picture1.png )
  <br/><br/>
 ![Shop-Shop-Redux Screenshots](assets/images/Picture2.png )
  <br/><br/>
  ![Shop-Shop-Redux Screenshots](assets/images/Picture3.png )
  <br/><br/>
+
+
+  ## Important Links 
+* GitHub Link: https://github.com/MichaelZimm20/shop-shop-redux
+
+* Heroku Link: https://shop-shop-redux-pro.herokuapp.com/
+
+## Questions 
+  If you have any questions or concerns, contact:
+  * GitHub: [MichaelZimm20](https://github.com/MichaelZimm20)
