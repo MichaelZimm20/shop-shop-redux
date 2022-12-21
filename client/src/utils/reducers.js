@@ -1,5 +1,5 @@
 // Hook is meant to manage a greater level of state, as useState is for managing simplier amounts of state
-import { useReducer } from 'react';
+// import { useReducer } from 'react';
 
 // import out actions 
 import {
@@ -14,7 +14,17 @@ import {
     TOGGLE_CART
 } from './actions';
 
-export const reducer = (state, action) => {
+//initial state
+const initialState = {
+    products: [],
+    cart: [],
+    cartOpen: false,
+    categories: [],
+    currentCategory: '',
+        
+}
+
+export const reducer = (state = initialState, action) => {
     switch (action.type) {
         // if action type value of `UPDATE_PRODUCTS`, return a new state object with an updated products array
         case UPDATE_PRODUCTS:
@@ -93,6 +103,4 @@ export const reducer = (state, action) => {
 
 
 // will be used to help intiialize our global state object., then provide updating functionality by running through reducer()
-export function useProductReducer(initialState) {
-    return useReducer(reducer, initialState);
-  }
+export default reducer

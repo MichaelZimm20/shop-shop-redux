@@ -10,7 +10,8 @@ import { setContext } from '@apollo/client/link/context';
 
 // the Provider component makes the Redux store available to the rest of the app
 import { Provider } from 'react-redux';
-import store from '.utils/store'
+import store from './utils/store'
+// import configureStore from '.utils/configureStore'
 
 
 import Home from './pages/Home';
@@ -39,6 +40,8 @@ const client = new ApolloClient({
   link: authLink.concat(httpLink),
   cache: new InMemoryCache(),
 });
+
+// const store = configureStore();
 
 function App() {
   return (
